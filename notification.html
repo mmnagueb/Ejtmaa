@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>إجتماع</title>
+
+  <!-- Favico -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/imgs/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/imgs/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/imgs/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Core Css Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/identity.min.css" />
+
+  <link rel="stylesheet" href="assets/css/datatables_customization.min.css" /> <!-- NEW FILE  -->
+
+  <!-- Custom css File  -->
+  <link rel="stylesheet" href="assets/css/app.min.css" />
+
+</head>
+
+<body>
+
+  <nav class="main_navbar">
+    <nav class="navbar navbar-expand-lg top_nav">
+      <div class="container-fluid">
+        <a class="kfu_logo_wrap" href="#">
+          <img src="assets/imgs/KFU_Logo_Dark.png" alt="KFU ICON LOGO">
+        </a>
+
+
+        <a class="fif_logo_wrap" href="#">
+          <img src="assets/imgs/ejtmaa_logo.png" alt="ejtmaa_logo">
+        </a>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg py-2 btm_nav">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="offcanvas offcanvas-end" id="navbarSupportedContent">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">الإجتماعات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">أرشيف الاجتماع</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">مواضيع معلقه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">محاضر الإجتماعات</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">اللوائح والقوانين</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">إحصائيات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">الإشعارات</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <ul class="navbar-nav me-auto mb-0 gap-3 flex-row">
+          <li class="nav-item dropdown">
+            <a class="notification_icon dropdown-toggle" id="notification" data-bs-toggle="dropdown"
+              aria-expanded="false" href="javascript:void(0)"> <i class="bi bi-bell"></i> <span>10</span></a>
+            <div class="dropdown-menu notification_dropdown" aria-labelledby="notification">
+              <div class="not_wrap">
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+                <a href="" class="notfy_item">
+                  <h5>اعتماد محضر الإجتماع</h5>
+                  <span>23 ديسمبر 2020 - 09:59 ص</span>
+                  <p>محضر اجتماع 'عنوان الإجتماع' نسخة رقم 1 جاهزة للاعتماد</p>
+                </a>
+              </div>
+              <a href="" class="btn btn-sm btn-primary btn-block w-100">عرض الكل</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-sm px-1" href="#"> <i class="bi bi-info-circle ms-1"></i> دليل الاستخدام</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </nav>
+
+  <main>
+
+    <div class="container-fluid">
+      <section class="page_header">
+        <h3 class="text-green">مجلس عمادة الدراسات العليا - <span class="text-gold">الإجتماعات</span></h3>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0 mt-2">
+            <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+            <li class="breadcrumb-item active" aria-current="page">الاشعارات</li>
+          </ol>
+        </nav>
+      </section>
+    </div>
+
+    <section class="sec_padd_1">
+      <div class="container">
+
+        <table class="table table-hover js-dataTable">
+          <thead>
+            <tr>
+              <th>العنوان</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>اعتماد محضر اجتماع</td>
+              <td class="action_td">
+                <div class="d-flex gap-2 justify-content-end">
+                  <a href="" class="btn btn-sm btn-danger">حذف</a>
+                  <a href="" class="btn btn-sm btn-primary">عرض</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>اعتماد محضر اجتماع</td>
+              <td class="action_td">
+                <div class="d-flex gap-2 justify-content-end">
+                  <a href="" class="btn btn-sm btn-danger rounded">حذف</a>
+                  <a href="" class="btn btn-sm btn-primary rounded">عرض</a>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>اعتماد محضر اجتماع</td>
+              <td class="action_td">
+                <div class="d-flex gap-2 justify-content-end">
+                  <a href="" class="btn btn-sm btn-danger">حذف</a>
+                  <a href="" class="btn btn-sm btn-primary">عرض</a>
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="bg-blue py-3">
+    <p class="m-0 text-white text-center">جميع الحقوق محفوظة لجامعة الملك فيصل 2023 © | تصميم وتطوير عمادة التعلم
+      الإلكتروني وتقنية
+      المعلومات</p>
+  </footer>
+
+
+
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/dataTables.min.js"></script> <!-- NEW FILE  -->
+
+  <!-- NEW SCRIPT  -->
+  <script>
+    $(document).ready(function () {
+      let normal_table = $(".js-dataTable").DataTable({
+        scroller: true,
+        dom: '<"table_wrapper"f and t><"bottom_bar"ip><"clear">',
+        language: {
+          "decimal": "",
+          "emptyTable": "لا يوجد بيانات",
+          "info": "يعرض من <span> _START_ </span> إلى <span> _END_ </span> من مجموع <span> _TOTAL_ </span>",
+          "infoEmpty": "",
+          "infoFiltered": "تصفية من مجموع _MAX_",
+          "infoPostFix": "",
+          "thousands": ",",
+          "lengthMenu": "_MENU_",
+          "loadingRecords": "جاري التحميل ...",
+          "processing": "جاري التحميل ...",
+          "search": "البحث",
+          "zeroRecords": "لا توجد بيانات متطابقة مع مدخلات البحث",
+          "paginate": {
+            "first": "First",
+            "last": "Last",
+            "next": "التالى",
+            "previous": "السابق"
+          }
+        },
+      });
+
+    });
+  </script>
+
+
+</body>
+
+</html>
